@@ -17,7 +17,7 @@ pipeline {
 
         stage('Restore') {
             steps {
-                bat 'dotnet restore CampusFranceProject\\CampusFranceProject.csproj'
+                bat 'dotnet restore CampusFranceProject.csproj'
             }
         }
 
