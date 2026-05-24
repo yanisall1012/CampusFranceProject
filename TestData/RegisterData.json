@@ -1,0 +1,45 @@
+﻿{
+  "etudiant": {
+    "email": "etudiant.test@gmail.com",
+    "motDePasse": "Etudiant@2024",
+    "civilite": "M.",
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "paysResidence": "-France",
+    "paysNationalite": "France",
+    "codePostal": "75001",
+    "ville": "Paris",
+    "telephone": "0601020304",
+    "domaineEtudes": "Mobilité",
+    "niveauEtude": "Licence 1"
+  },
+  "chercheur": {
+    "email": "chercheur.test@labo.fr",
+    "motDePasse": "Chercheur@2024",
+    "civilite": "Mme",
+    "nom": "Martin",
+    "prenom": "Sophie",
+    "paysResidence": "-France",
+    "paysNationalite": "France",
+    "codePostal": "69001",
+    "ville": "Lyon",
+    "telephone": "0612345678",
+    "domaineEtudes": "Sciences humaines et sociales",
+    "niveauEtude": "Doctorat / PhD"
+  },
+  "institutionnel": {
+    "email": "contact@universite-bordeaux.fr",
+    "motDePasse": "Institut@2024",
+    "civilite": "M.",
+    "nom": "Bernard",
+    "prenom": "Paul",
+    "paysResidence": "-France",
+    "paysNationalite": "France",
+    "codePostal": "33000",
+    "ville": "Bordeaux",
+    "telephone": "0556789012",
+    "fonction": "Responsable des admissions",
+    "typeOrganisme": "Etablissement-Université-Ecole",
+    "nomOrganisme": "Université de Bordeaux"
+  }
+}
