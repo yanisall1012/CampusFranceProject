@@ -15,27 +15,23 @@ pipeline {
             }
         }
 
-        stage('Restore') {
-            steps {
-                bat 'dotnet restore CampusFranceProject.csproj'
-            }
-        }
+       stage('Restore') {
+    steps {
+        bat 'dotnet restore'
+    }
+}
 
-        stage('Build') {
-            steps {
-                bat 'dotnet build CampusFranceProject\\CampusFranceProject.csproj --configuration Release'
-            }
-        }
+stage('Build') {
+    steps {
+        bat 'dotnet build --configuration Release'
+    }
+}
 
-        stage('Test') {
-            steps {
-                bat '''
-                    dotnet test CampusFranceProject\\CampusFranceProject.csproj ^
-                    --configuration Release ^
-                    --logger "trx;LogFileName=test-results.trx" ^
-                    --results-directory TestResults
-                '''
-            }
+stage('Test') {
+    steps {
+        bat 'dotnet test --configuration Release'
+    }
+}
 
             post {
                 always {
