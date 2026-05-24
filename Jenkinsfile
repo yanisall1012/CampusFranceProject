@@ -35,10 +35,6 @@ pipeline {
     }
 
     post {
-        always {
-            mstest testResultsFile: '**\\TestResults\\*.trx'
-        }
-
         success {
             echo 'Pipeline terminé avec succès !'
         }
